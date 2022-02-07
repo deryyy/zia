@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract InternshipERC20Token is ERC20 {
     address public lastContractAddress;
 
-    constructor() ERC20("Crypto Creator Token", "CCT") {}
+    constructor() ERC20("ZIA", "ZIA") {}
 
     function decimals() public view virtual override returns (uint8) {
         return 8;
